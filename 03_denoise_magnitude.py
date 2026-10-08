@@ -22,7 +22,7 @@ from dipy.denoise.localpca import mppca
 
 # 현재 파일 위치:
 # project-lab/03_denoise_magnitude.py
-PROJECT_ROOT = Path(__file__).resolve().parents
+PROJECT_ROOT = Path(__file__).resolve().parent
 
 ORIGINAL_PATH = (
     PROJECT_ROOT
